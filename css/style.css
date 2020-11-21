@@ -1,0 +1,175 @@
+:root {
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-text-color: #2196f3;
+}
+
+body {
+  background-color: #fff;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* ======== HEADER========*/
+
+.site-nav a {
+  color: var(--secondary-text-color);
+}
+.logo {
+  color: #000000;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.accent {
+  color: var(--accent-text-color);
+}
+
+.nav-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus,
+.adress-mail:hover,
+.adress-mail:focus,
+.adress-location:hover,
+.adress-location:focus {
+  color: var(--accent-text-color);
+}
+.adress-list,
+.contact-info {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14x;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.adress-mail,
+.adress-tel {
+  font-style: normal;
+  color: #757575;
+}
+/* ======== END HEADER========*/
+
+/* ======= HERO =========*/
+.hero {
+  font-family: var(--main-font);
+  text-align: center;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+}
+.modal-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.36;
+  background-color: var(--accent-text-color);
+  color: #ffffff;
+}
+
+/* ======= END HERO =========*/
+
+/* ====== Advantages =======*/
+
+.advantages-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.advantages-description {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/* ====== END Advantages =======*/
+
+/* ======= Examples ========*/
+
+.examples-title,
+.team-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/* ======= END Examples ========*/
+
+/* ======== Team ========*/
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-name {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.team-position {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/* ======== END Team ========*/
+
+/* ======== Footer ========*/
+
+footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: #ffffff;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.adress-location {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+/* ======== END Footer ========*/ ;
