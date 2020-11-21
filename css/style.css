@@ -44,46 +44,49 @@ body {
 .adress-mail:hover,
 .adress-mail:focus,
 .adress-location:hover,
-.adress-location:focus {
+.adress-location:focus,
+.button-portfolio:hover,
+.button-portfolio:focus {
   color: var(--accent-text-color);
 }
 .adress-list,
 .contact-info {
+  color: var(--main-text-color);
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 14x;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-text-color);
 }
 .adress-mail,
 .adress-tel {
-  font-style: normal;
   color: #757575;
+  font-style: normal;
 }
 /* ======== END HEADER========*/
 
 /* ======= HERO =========*/
 .hero {
+  color: #ffffff;
+  background-color: #2f303a;
   font-family: var(--main-font);
   text-align: center;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
-  background-color: #2f303a;
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
 }
-.modal-button {
+.hero-button {
+  color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.36;
   background-color: var(--accent-text-color);
-  color: #ffffff;
 }
 
 /* ======= END HERO =========*/
@@ -91,22 +94,22 @@ body {
 /* ====== Advantages =======*/
 
 .advantages-title {
+  color: var(--secondary-text-color);
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
 }
 
 .advantages-description {
+  color: var(--main-text-color);
   font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
 }
 /* ====== END Advantages =======*/
 
@@ -114,14 +117,15 @@ body {
 
 .examples-title,
 .team-title {
+  color: var(--secondary-text-color);
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
 }
+
 /* ======= END Examples ========*/
 
 /* ======== Team ========*/
@@ -130,23 +134,25 @@ body {
 }
 
 .team-name {
+  color: var(--secondary-text-color);
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
 }
+
 .team-position {
+  color: var(--main-text-color);
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
 }
+
 /* ======== END Team ========*/
 
 /* ======== Footer ========*/
@@ -172,4 +178,45 @@ footer {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-/* ======== END Footer ========*/ ;
+/* ======== END Footer ========*/
+
+/* ========= Portfolio =======*/
+
+.button-portfolio {
+  text-align: center;
+}
+.button-portfolio-filter {
+  color: var(--secondary-font);
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.button-portfolio-filter:hover,
+.button-portfolio-filter:focus {
+  background: var(--accent-text-color);
+  color: #ffffff;
+}
+
+.work-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.work-project {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* ========= END Portfolio =======*/
