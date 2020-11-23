@@ -17,9 +17,13 @@ body {
 
 /* ======== HEADER========*/
 
-.site-nav a {
+.site-nav .nav-link {
   color: var(--secondary-text-color);
 }
+.site-nav .nav-link.current {
+  color: var(--accent-text-color);
+}
+
 .logo {
   color: #000000;
   font-family: var(--secondary-font);
@@ -46,14 +50,15 @@ body {
 .adress-location:hover,
 .adress-location:focus,
 .button-portfolio:hover,
-.button-portfolio:focus {
+.button-portfolio:focus,
+.adress-mail-footer:hover,
+.adress-mail-footer:focus {
   color: var(--accent-text-color);
 }
 .adress-list,
 .contact-info {
   color: var(--main-text-color);
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 14x;
   line-height: 1.14;
@@ -178,6 +183,17 @@ footer {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
+.adress-mail-footer,
+.adress-tel-footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
 /* ======== END Footer ========*/
 
 /* ========= Portfolio =======*/
@@ -185,7 +201,7 @@ footer {
 .button-portfolio {
   text-align: center;
 }
-.button-portfolio-filter {
+.button-portfolio {
   color: var(--secondary-font);
   font-family: var(--main-font);
   font-weight: 500;
@@ -193,6 +209,20 @@ footer {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.button-portfolio-all:hover,
+.button-portfolio-web:hover,
+.button-portfolio-application:hover,
+.button-portfolio-design:hover,
+.button-portfolio-marketing:hover,
+.button-portfolio-all:focus,
+.button-portfolio-web:focus,
+.button-portfolio-application:focus,
+.button-portfolio-design:focus,
+.button-portfolio-marketing:focus {
+  background: var(--accent-text-color);
+  color: #ffffff;
 }
 
 .button-portfolio-filter:hover,
