@@ -50,8 +50,6 @@ body {
 .adress-mail:focus,
 .adress-location:hover,
 .adress-location:focus,
-.button-portfolio:hover,
-.button-portfolio:focus,
 .adress-mail-footer:hover,
 .adress-mail-footer:focus {
   color: var(--accent-text-color);
@@ -219,25 +217,13 @@ footer {
 
 /* ========= Portfolio =======*/
 
-.button-portfolio-all:hover,
-.button-portfolio-all:focus,
-.button-portfolio-web:hover,
-.button-portfolio-web:focus,
-.button-portfolio-application:hover,
-.button-portfolio-application:focus,
-.button-portfolio-design:hover,
-.button-portfolio-design:focus,
-.button-portfolio-marketing:hover,
-.button-portfolio-marketing:focus {
+.button-portfolio:focus,
+.button-portfolio:hover {
   background: var(--accent-text-color);
   color: #ffffff;
 }
 
-.button-portfolio-all,
-.button-portfolio-web,
-.button-portfolio-application,
-.button-portfolio-design,
-.button-portfolio-marketing {
+.button-portfolio {
   color: var(--secondary-font);
   font-family: var(--main-font);
   font-weight: 500;
