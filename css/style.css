@@ -43,6 +43,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .adress-mail:hover,
@@ -68,10 +69,28 @@ body {
 .adress-tel {
   color: #757575;
   font-style: normal;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 /* ======== END HEADER========*/
 
 /* ======= HERO =========*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .hero {
   color: #ffffff;
   background-color: #2f303a;
@@ -177,6 +196,7 @@ footer {
 
 .adress-location {
   font-family: var(--main-font);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -187,6 +207,7 @@ footer {
 .adress-mail-footer,
 .adress-tel-footer {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
@@ -198,10 +219,25 @@ footer {
 
 /* ========= Portfolio =======*/
 
-.button-portfolio {
-  text-align: center;
+.button-portfolio-all:hover,
+.button-portfolio-all:focus,
+.button-portfolio-web:hover,
+.button-portfolio-web:focus,
+.button-portfolio-application:hover,
+.button-portfolio-application:focus,
+.button-portfolio-design:hover,
+.button-portfolio-design:focus,
+.button-portfolio-marketing:hover,
+.button-portfolio-marketing:focus {
+  background: var(--accent-text-color);
+  color: #ffffff;
 }
-.button-portfolio {
+
+.button-portfolio-all,
+.button-portfolio-web,
+.button-portfolio-application,
+.button-portfolio-design,
+.button-portfolio-marketing {
   color: var(--secondary-font);
   font-family: var(--main-font);
   font-weight: 500;
@@ -209,26 +245,6 @@ footer {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-.button-portfolio-all:hover,
-.button-portfolio-web:hover,
-.button-portfolio-application:hover,
-.button-portfolio-design:hover,
-.button-portfolio-marketing:hover,
-.button-portfolio-all:focus,
-.button-portfolio-web:focus,
-.button-portfolio-application:focus,
-.button-portfolio-design:focus,
-.button-portfolio-marketing:focus {
-  background: var(--accent-text-color);
-  color: #ffffff;
-}
-
-.button-portfolio-filter:hover,
-.button-portfolio-filter:focus {
-  background: var(--accent-text-color);
-  color: #ffffff;
 }
 
 .work-title {
